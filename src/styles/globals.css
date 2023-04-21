@@ -1,0 +1,53 @@
+.stc_main_container {
+  text-align: center;
+  max-width: 800px;
+  margin: auto;
+  padding: 1rem;
+}
+
+.stc_header {
+  background: #c8235b;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 10px;
+  border-radius: 90px;
+}
+
+.stc_editing_dialog {
+  display: hidden;
+  position: fixed;
+  display: grid;
+  background: #fbefef;
+  border-radius: 10px;
+  color: #636363;
+  align-items: center;
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  height: 0px;
+  width: 0px;
+  overflow: hidden;
+  transition: all ease-in-out;
+  transition-duration: 300ms;
+  top: 0;
+  left: 0;
+}
+
+.stc_inputs {
+  padding: 1rem;
+  background: #fff;
+  border: 0px;
+  font-weight: bold;
+  margin: 5px;
+}
+
+.stc_footer {
+  background: #ccc;
+  color: #636363;
+  padding: 0.5rem;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 10px;
+  border-radius: 90px;
+  margin-top: 50px;
+}
